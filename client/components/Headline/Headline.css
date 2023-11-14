@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .headline {
+        @apply w-full;
+        @apply flex justify-between items-center;
+    }
+
+    .headline .date {
+        @apply text-secondary leading-[1.1];
+    }
+
+    .headline .date h1 {
+        @apply text-6xl;
+    }
+
+    .headline .date h3 {
+        @apply text-3xl;
+    }
+}

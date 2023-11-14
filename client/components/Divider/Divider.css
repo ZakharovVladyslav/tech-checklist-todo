@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .divider {
+        @apply block bg-secondary;
+    }
+
+    .divider.x {
+        @apply w-px h-full;
+    }
+
+    .divider.y {
+        @apply h-px w-full;
+    }
+}

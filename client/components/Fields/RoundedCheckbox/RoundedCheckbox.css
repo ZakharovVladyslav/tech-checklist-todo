@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .checkbox {
+        @apply border border-primary rounded-full w-6 h-6;
+        @apply cursor-pointer;
+    }
+
+    .checkbox.checked {
+        @apply bg-primary;
+    }
+}

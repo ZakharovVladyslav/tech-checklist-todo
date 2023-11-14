@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .iconed-input {
+        @apply bg-secondary rounded-2xl p-5 w-fit;
+        @apply flex items-center justify-start gap-4;
+    }
+
+    .iconed-input.full {
+        @apply w-full;
+    }
+
+    .iconed-input input {
+        @apply text-2xl text-white leading-[1.1];
+        @apply bg-transparent w-56;
+    }
+
+    .iconed-input input:focus {
+        @apply outline-none;
+    }
+
+    .iconed-input input::placeholder {
+        @apply text-white;
+    }
+
+    .iconed-input input:focus::placeholder {
+        @apply opacity-0;
+    }
+
+    .iconed-input .icon {
+        @apply w-4 h-4;
+    }
+}

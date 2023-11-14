@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    main {
+        @apply py-5 px-20 w-full h-full;
+        @apply flex flex-col justify-between gap-[60px];
+    }
+
+    .todos {
+        @apply space-y-3;
+        @apply flex-1 self-stretch h-full;
+        @apply overflow-y-scroll;
+    }
+}

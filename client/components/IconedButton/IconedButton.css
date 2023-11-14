@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .iconed-button {
+        @apply bg-transparent border-none;
+    }
+}

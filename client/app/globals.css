@@ -1,0 +1,8 @@
+* {
+    @apply font-oswald;
+}
+
+html,
+body {
+    @apply w-full h-full;
+}

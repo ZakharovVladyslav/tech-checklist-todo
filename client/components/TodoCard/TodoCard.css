@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .todo-card {
+        @apply w-full px-10 py-5 bg-secondary rounded-2xl;
+        @apply flex justify-center items-center gap-3;
+    }
+
+    .todo-card .title {
+        @apply w-full;
+        @apply text-white;
+    }
+
+    .todo-card .management-buttons {
+        @apply flex gap-3;
+    }
+}
